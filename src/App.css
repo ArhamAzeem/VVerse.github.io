@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+body{
+  overflow-x:hidden;
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Modal content */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80vw; /* Responsive width */
+  width: 90%;
+}
+
+@media only screen and (max-width: 475px){
+  .mimg{
+    height: 30vh;
+    width: 70%;
+  }
+}
+  
+/* Add this to your CSS file */
+.logo-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .logo-item {
+    margin: 2px; /* Adjust margin for smaller screens */
+  }
+}
+
+footer{
+  text-shadow: 2px 2px 2px palevioletred;
+}
+
